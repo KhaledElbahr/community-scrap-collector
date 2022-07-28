@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <>
     {['md'].map((expand) => (
-      <Navbar key={expand} expand={expand} className="mb-3 green-bg" >
+      <Navbar key={expand} expand={expand} className="green-bg fixed-top" >
         <Container >
           <Navbar.Brand href="#" className='white-text fw-semibold' >LOGO</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} className='white-bg'   />

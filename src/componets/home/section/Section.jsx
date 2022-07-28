@@ -1,6 +1,6 @@
 import React from "react";
-import personal from "../../assets/images/per.jpg";
-import organizational from "../../assets/images/org.jpg";
+import personal from "../../../assets/images/per.jpg";
+import organizational from "../../../assets/images/org.jpg";
 import { Row, Col, Container, Button } from "react-bootstrap";
 
 const Section = () => {
