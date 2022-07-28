@@ -1,10 +1,10 @@
-import './App.css';
+import "./App.css";
+import Home from "./views/Home";
 
 function App() {
   return (
     <>
-    <h1 className="text-center">CSC APP</h1>
-    <p>Garbage Collection</p>
+      <Home></Home>
     </>
   );
 }
