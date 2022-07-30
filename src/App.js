@@ -10,6 +10,8 @@ function App() {
 
       <Home />
       <ContactUs />
+      <About />
+      <Privacy />
 
     </>
   );

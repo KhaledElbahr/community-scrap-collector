@@ -1,5 +1,5 @@
 import Accordion from 'react-bootstrap/Accordion';
-import { Row, Col, Container, Button } from "react-bootstrap";
+import {  Container } from "react-bootstrap";
 const Privacy = () => {
 
     return (

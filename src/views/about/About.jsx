@@ -1,11 +1,6 @@
-import { Row, Col, Container, Button, Image, Card, } from "react-bootstrap";
+import { Row, Col, Container, Image, Card, } from "react-bootstrap";
 import banner from '../../assets/images/environment-banner.jpg';
-import pplFirst from '../../assets/images/people-first-person-icon.svg';
-import inclusion from '../../assets/images/inclusion-diversity-venndiagram-icon.svg';
-import tree from '../../assets/images/environment-trees-icon.svg';
 import pic23 from '../../assets/images/23.jpg';
-import pic24 from '../../assets/images/24.jpg';
-import pic18 from '../../assets/images/18.jpg';
 import './About.css';
 import { Person, Intersect, People, Cone, Tree, } from 'react-bootstrap-icons';
 const About = () => {
