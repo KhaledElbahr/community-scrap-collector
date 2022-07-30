@@ -1,5 +1,5 @@
 import React from "react";
-import Header from '../common/header/Header'
+import Header from "../common/header/Header";
 import Slider from "../componets/home/Slider";
 import Section from "../componets/home/Section";
 
