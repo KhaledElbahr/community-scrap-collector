@@ -7,7 +7,9 @@ const ContactUs = () => {
 
     const { control, register, watch, handleSubmit,
         formState: { errors, touchedFields, dirtyFields },
-    } = useForm();
+    } = useForm({ mode: "onChange" });
+
+
 
 
     const onSubmit = (data) => {
