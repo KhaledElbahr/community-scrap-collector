@@ -13,7 +13,7 @@
 }
 /* ---user drop down--- */
 .user-info{
-    background-image: url('./person.jpg');
+    background-image: url('../../assets/images/profile/person.jpg');
     background-position:center;
     background-size: cover;
     width: 40px;
