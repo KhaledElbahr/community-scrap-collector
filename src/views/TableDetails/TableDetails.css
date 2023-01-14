@@ -1,0 +1,24 @@
+.pagination{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    cursor: pointer;
+    margin:0px 0px 0px 30px;
+}
+.pagination a{
+    padding: 5px 12px;
+    border: 1px solid gray;
+    margin: 0%;
+}
+.pagination_link{
+    font-weight: bold;
+    text-decoration: none;
+    display: none;
+}
+.pagination_link_active a{
+    background-color: rgb(148, 148, 148);
+    border-radius: 0%;
+}
+.pagination_link_disabled a{
+    color: rgb(190, 188, 188) !important;
+} 

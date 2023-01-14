@@ -1,0 +1,25 @@
+
+    .white-text{
+        color: #F3F9E3 !important;
+    }
+    .green-text{
+        color: #073B3A !important;
+    }
+    .white-bg{
+        background-color: #f3f9e38f !important;
+    }
+    .green-bg{
+        background-color: #0b6e4f !important;
+    }
+    .home-btn{
+        color:#0b6e4f !important;
+        background-color: #0b6e4f00 !important ;
+        border: 2px solid #0b6e4f !important;
+        transition: all 0.4s ease-in;
+        border-radius: px !important;
+    }
+.home-btn:hover{
+    color:#F3F9E3 !important;
+        background-color: #0b6e4f !important ;
+        border: 2px solid #0b6e4f !important;
+}

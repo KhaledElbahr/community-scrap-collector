@@ -1,0 +1,26 @@
+/* ---responsive layout--- */
+.slider-img{
+    height: 60vh;
+    filter:brightness(0.5);
+}
+@media only screen and (min-width: 577px) {
+    .slider-img{
+        height: 70vh;
+    }
+  }
+@media only screen and (min-width: 768px) {
+    .slider-img{
+        height: 80vh;
+    }
+  }
+@media only screen and (min-width: 992px) {
+    .slider-img{
+        height: 90vh;
+    }
+  }
+
+
+  /* ---text color--- */
+  .white-text{
+    color: #F3F9E3 !important;
+}

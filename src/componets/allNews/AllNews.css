@@ -1,0 +1,46 @@
+.spinner-container{
+    height: 100vh !important;
+}
+i{
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;   
+}
+.all_pagination{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    list-style: none;
+    padding-top: 50px;
+}
+.all_pagination a{
+    padding: 5px 12px;
+    margin: 0px 2px;
+}
+.pagination_links{
+    font-weight: bold;
+    color: #08A045;
+    text-decoration: none;
+}
+.pagination_links:hover{
+    color: #08A045 !important;
+}
+.pagination_links_active a{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(171, 178, 151);
+}
+.pagination_links_disabled a{
+    color: rgb(190, 188, 188) !important;
+} 
+.card{
+    transition: all 0.3s ease-in;
+}
+.card:hover{
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(11,110,79,1)!important;
+-moz-box-shadow: 0px 0px 10px 2px rgba(11,110,79,1)!important;
+box-shadow: 0px 0px 10px 2px rgba(11,110,79,1) !important;
+}
